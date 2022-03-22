@@ -1,4 +1,4 @@
-package testPackage;
+package staticKeyword;
 
 public class Dog {
 

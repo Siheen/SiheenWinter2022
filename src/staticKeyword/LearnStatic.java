@@ -1,7 +1,5 @@
 package staticKeyword;
 
-import testPackage.Dog;
-
 public class LearnStatic {
 
     // Static= unchanging, not that doesn't mean it is unchangeable.
@@ -26,6 +24,10 @@ public class LearnStatic {
 
         System.out.println(fido.typeOfAnimal);
         System.out.println(airBud.typeOfAnimal);
-
+  /*
+  NOTE: We should always call a static member of classes by using ClassName, and not using references,
+        such as we see below. The correct way to call 'typeOfAnimal' would be 'Dog.typeOFAnimal', since it is static
+        and belongs to the class, and not to the instance of the class.
+   */
     }
 }
