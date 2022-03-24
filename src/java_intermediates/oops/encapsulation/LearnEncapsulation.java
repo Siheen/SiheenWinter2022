@@ -20,19 +20,23 @@ public class LearnEncapsulation {
 // Getters
 
     public String getEmployeeId() {
-        return employeeId;
+
+        return this.employeeId;
     }
 
     public void setEmployeeId(String employeeId) {
+
         this.employeeId = employeeId;
     }
 
     //setters
     public int getSalary() {
+
         return salary;
     }
 
     public void setSalary(int salary) {
+
         this.salary = salary;
     }
 }
