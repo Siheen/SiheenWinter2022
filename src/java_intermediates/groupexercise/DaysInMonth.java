@@ -4,15 +4,15 @@ public class DaysInMonth {
 
     public static void main(String[] args) {
         DaysInMonth obj = new DaysInMonth();
-        System.out.println(obj.getDaysInMonth(4, 2018)); //30
-        System.out.println(obj.getDaysInMonth(10, 1995)); //31
+//        System.out.println(obj.getDaysInMonth(4, 2018)); //30
+//        System.out.println(obj.getDaysInMonth(10, 1995)); //31
         System.out.println(obj.getDaysInMonth(2, 2012));// 29
-        System.out.println(obj.getDaysInMonth(6, 2011)); //30
-        System.out.println(obj.getDaysInMonth(12, 2017)); //31
-        System.out.println(obj.getDaysInMonth(-5, 2022)); //-1
-        System.out.println(obj.getDaysInMonth(7, 10292)); //-1
-        System.out.println(obj.getDaysInMonth(5, 1968)); //31
-        System.out.println(obj.getDaysInMonth(3, 768));//31
+//        System.out.println(obj.getDaysInMonth(6, 2011)); //30
+//        System.out.println(obj.getDaysInMonth(12, 2017)); //31
+ //       System.out.println(obj.getDaysInMonth(-5, 2022)); //-1
+//        System.out.println(obj.getDaysInMonth(7, 10292)); //-1
+//        System.out.println(obj.getDaysInMonth(5, 1968)); //31
+//        System.out.println(obj.getDaysInMonth(3, 768));//31
 
 
     }
@@ -67,7 +67,7 @@ public class DaysInMonth {
         if((year % 4 == 0 && year % 100!=0) || (year % 400==0)) {
             isLeap= true;
         }
-        return isLeap;
+        return isLeap = true;
     }
 
 

@@ -1,5 +1,6 @@
 package java_intermediates.enums;
 
 public enum Directions {
-    NORTH, SOUTH, EAST, WEST
+
+        NORTH, SOUTH, EAST, WEST
 }
